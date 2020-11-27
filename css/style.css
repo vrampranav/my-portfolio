@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #ff6600;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* container */
+.container {
+  padding: 0 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+.container .link {
+  padding: 0;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+.secondary-link {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* lists */
+.list-non-bullet {
+  list-style-type: none;
+}
+.list-inline-item {
+  display: inline;
+  padding: 1rem;
+}
+/* header */
+header {
+  margin-top: 150px;
+}
+/* nav */
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navigation .link {
+  color: white;
+  font-size: 1.1rem;
+}
+.nav-brand {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+.nav-pills {
+  display: flex;
+  justify-content: flex-end;
+}
+.link-active {
+  font-weight: bold;
+}
+
+/* header */
+.hero {
+  padding: 2rem 0;
+}
+.hero .hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  font-size: 2.1rem;
+  text-align: center;
+  color: var(--dark-gray);
+  padding-top: 1rem;
+}
+.hero .hero-heading .hero-inverted {
+  color: var(--primary-color);
+}
+
+/* section */
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/* footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer .link {
+  color: white;
+}
+footer ul {
+  padding-inline-start: 0px;
+}
