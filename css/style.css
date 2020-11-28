@@ -23,10 +23,9 @@ hr {
   max-width: 600px;
   margin: auto;
 }
-.container .link {
+.container .gen-link {
   padding: 0;
 }
-
 /* links */
 .link {
   text-decoration: none;
@@ -54,19 +53,15 @@ hr {
   display: inline;
   padding: 1rem;
 }
-/* header */
-header {
-  margin-top: 150px;
-}
+
 /* nav */
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 0.5rem;
+  padding: 0.1rem;
   border-bottom-left-radius: 1rem;
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
 }
 .navigation .link {
   color: white;
@@ -76,7 +71,8 @@ header {
   display: flex;
   justify-content: flex-start;
   font-size: 1.4rem;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
   font-weight: bold;
 }
 .nav-pills {
@@ -96,6 +92,9 @@ header {
   display: block;
   margin: auto;
 }
+.hero .blog-img {
+  max-height: 280px;
+}
 .hero .hero-heading {
   font-size: 2.1rem;
   text-align: center;
@@ -110,8 +109,11 @@ header {
 .section {
   padding: 2rem;
 }
-.section h1 {
+/* .section h1 {
   text-align: center;
+} */
+.section .container p {
+  padding-bottom: 1rem;
 }
 
 .ow {
@@ -120,19 +122,29 @@ header {
 
 /* footer */
 footer {
+  display: block;
   background-color: var(--primary-color);
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   color: white;
   font-weight: bold;
   border-top-right-radius: 1rem;
-  position: fixed;
+  /* position: sticky; */
   bottom: 0;
-  width: 100%;
 }
 footer .link {
   color: white;
 }
 footer ul {
   padding-inline-start: 0px;
+}
+
+@media (max-width: 800px) {
+  .list-inline-item {
+    display: block;
+    padding: 0.5rem;
+  }
+  footer {
+    text-align: left;
+  }
 }
