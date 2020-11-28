@@ -159,3 +159,9 @@ footer ul {
     text-align: left;
   }
 }
+
+/* projects */
+.projects ul,
+.blogs ul {
+  padding: 0;
+}
