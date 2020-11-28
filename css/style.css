@@ -97,16 +97,14 @@ hr {
 
 /* header */
 .hero {
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 .hero .hero-image {
   max-width: 350px;
   display: block;
   margin: auto;
 }
-.hero .blog-img {
-  max-height: 280px;
-}
+
 .hero .hero-heading {
   font-size: 2.1rem;
   text-align: center;
