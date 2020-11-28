@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
   --primary-color: #ff6600;
   --dark-gray: #6b7280;
   --off-white: #f3f4f6;
+  --hover-color: #d45501;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
@@ -67,6 +74,10 @@ hr {
   color: white;
   font-size: 1.1rem;
 }
+.navigation .link:not(.link-active):hover {
+  background-color: var(--hover-color);
+}
+
 .nav-brand {
   display: flex;
   justify-content: flex-start;
@@ -112,7 +123,7 @@ hr {
 /* .section h1 {
   text-align: center;
 } */
-.section .container p {
+.section p {
   padding-bottom: 1rem;
 }
 
