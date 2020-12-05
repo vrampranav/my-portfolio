@@ -160,7 +160,7 @@ footer ul {
     text-align: left;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .project-link {
     display: block;
     width: auto;
